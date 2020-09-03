@@ -1,0 +1,38 @@
+body{
+    background: #333333;
+}
+.sub-container{
+    overflow: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+} 
+.container{
+    background: #eeeeee;
+}
+button{
+    margin-bottom: 1rem;
+}
+h1{
+    margin-top: 1rem;
+}
+@media(max-width: 768px){
+    .sub-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+}
+@media(max-width: 320px){
+    .container{
+        overflow: auto;
+    }
+   .btn{
+       margin: 10px;
+       padding: auto;
+   }
+   
+}
